@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a img {
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+}
+
+/*https://www.w3schools.com/howto/howto_css_bottom_nav.asp Dit heb ik gebruikt om de nav onderaan te krijgen.*/
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+}
+
+.nav-button {
+    background-color: #D7F31E;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 23% 23% 0% 0%;
+}
+
+.index h2 {
+    margin-bottom: 50px;
+}
+
+.index section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+
+}
+
+.desiree {
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.index p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.index {
+    background-image: url(images/bg-image-optie-2.jpg);
+}
+
+.ecofur-info {
+    background-image: url(images/bg-image-2.jpg);
+}
+
+.shop-inspo {
+    background-image: url(images/bg-image-3.jpg);
+}
+
+.logo {
+    width: 300px;
+    margin: 37px;
+    margin-top: 150px;
+    margin-bottom: 210px;
+}
+
+.shop-tekst {
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+/*Niet index*/
+
+.ecofur-info section {
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 260%;
+    padding: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /*https://css-tricks.com/adding-stroke-to-web-text/*/
+}
+
+.ecofur-info p {
+    margin-left: 25px;
+    margin-right: 90px;
+    margin-top: 150px;
+}
+
+.nerts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.nerts p {
+    padding: 3px;
+}
+
+.shop-uitleg {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #218300;
+    border-radius: 40px;
+}
+
+.shop-uitleg p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-bottom: 80px;
+}
+
+footer p {
+    color: #686868;
+}
